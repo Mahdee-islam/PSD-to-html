@@ -1,0 +1,197 @@
+$icon-size: 50px;
+$background-color:#87509c;
+$background-color-service-section: #17c2a4;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+.body {
+    
+    text-rendering: optimizeLegibility;
+    line-height: 1.3;
+    font-size: 1.6rem;
+
+}
+.navbar {
+    background: $background-color;
+    ul li {
+        margin: 20px;
+    }
+   
+    .nav-item {
+        padding-left:  1em;
+        
+    }
+    .nav-link {
+        text-transform: uppercase;
+        color:#fff;
+        text-decoration: none;
+
+        :active {
+            color:#643a79;
+        }
+        
+    
+        
+    }
+    
+}
+.home {
+background: $background-color;
+color:#fff;
+ .btn-warning {
+     
+     background-color: #eb7d4b;
+     text-transform: uppercase;
+     color:#fff;
+     font-size: 20px;
+     outline: none;
+     
+ }
+
+}
+
+#services{
+    background:$background-color-service-section ;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+
+    h2{
+        text-transform: uppercase;
+        font-weight:bold;
+    }
+    h3 {
+        font-weight:bold;
+    }
+    
+}
+#meet {
+    .head {
+        text-transform: uppercase;
+        
+    }
+    h2 {
+        font-weight: bold;
+    }
+}
+#authors {
+    background:#e7f1f8;
+}
+#skill-section{
+    color:#3c4761;
+    text-align: center;
+    h2 {
+        font-weight: bold;
+    }
+
+.box {
+    margin-top: 4.5rem;
+}
+.radial-progress circle {
+stroke-width: 8;
+}
+.radial-progress text {
+    fill: #3c4761;
+    font-size: 1.5rem;
+}
+.web-design circle {
+    stroke: #30bae7;
+}
+.html circle {
+    stroke:#d74680;
+}
+.graphicsDesign circle {
+    stroke:#15c7a8;
+}
+.ui circle{
+    stroke: #eb7d4b;
+}
+   
+}
+.blog-section {
+    color:#3c4761;
+    text-align: center;
+    background-color: #ffdd99;
+    padding-top: 10px;
+    padding-bottom: 10px;
+.btn {
+    background: #ebc985;
+    border: #ebc985;
+    color:#333;
+   
+    
+}
+.btnNew {
+    background-color: #17c2a4;
+    color:#fff;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+
+}
+#testimonial-section {
+    background: linear-gradient(#d74680);
+    color: #ffffff;
+    h2 {
+        font-weight: bold;
+    }
+    .client-photo img {
+        margin-bottom: 3rem;
+        float: left;
+    }
+   .client-review {
+       padding-left: 250px;
+       padding-top: 20px;
+       
+   }
+   span {
+       color:#ffdd99;
+   }
+}
+
+    
+
+    
+
+
+.contact {
+    
+
+    background: #3c5499;
+    color:#fff;
+    h2 {
+        font-weight: bold;
+    }
+    .btn {
+        text-align: center;
+        text-transform: uppercase;
+        background-color:#30bae7;
+    }
+    input {
+        background-color: #273a71;
+       
+    }
+    textarea {
+        background-color: #273a71;
+        
+    }
+    input {
+        background-color: #273a71;
+    }
+    textarea,input:hover {
+        background-color:#273a71;
+    }
+    
+
+}
+footer {
+    background: #344b8e;
+    span {
+        font-weight: 600;
+        font-size: 15px;
+      
+    }
+}

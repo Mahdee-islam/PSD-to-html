@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.body {
+  text-rendering: optimizeLegibility;
+  line-height: 1.3;
+  font-size: 1.6rem;
+}
+
+.navbar {
+  background: #87509c;
+}
+
+.navbar ul li {
+  margin: 20px;
+}
+
+.navbar .nav-item {
+  padding-left: 1em;
+}
+
+.navbar .nav-link {
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .nav-link :active {
+  color: #643a79;
+}
+
+.home {
+  background: #87509c;
+  color: #fff;
+}
+
+.home .btn-warning {
+  background-color: #eb7d4b;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+}
+
+#services {
+  background: #17c2a4;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+}
+
+#services h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#services h3 {
+  font-weight: bold;
+}
+
+#meet .head {
+  text-transform: uppercase;
+}
+
+#meet h2 {
+  font-weight: bold;
+}
+
+#authors {
+  background: #e7f1f8;
+}
+
+#skill-section {
+  color: #3c4761;
+  text-align: center;
+}
+
+#skill-section h2 {
+  font-weight: bold;
+}
+
+#skill-section .box {
+  margin-top: 4.5rem;
+}
+
+#skill-section .radial-progress circle {
+  stroke-width: 8;
+}
+
+#skill-section .radial-progress text {
+  fill: #3c4761;
+  font-size: 1.5rem;
+}
+
+#skill-section .web-design circle {
+  stroke: #30bae7;
+}
+
+#skill-section .html circle {
+  stroke: #d74680;
+}
+
+#skill-section .graphicsDesign circle {
+  stroke: #15c7a8;
+}
+
+#skill-section .ui circle {
+  stroke: #eb7d4b;
+}
+
+.blog-section {
+  color: #3c4761;
+  text-align: center;
+  background-color: #ffdd99;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.blog-section .btn {
+  background: #ebc985;
+  border: #ebc985;
+  color: #333;
+}
+
+.blog-section .btnNew {
+  background-color: #17c2a4;
+  color: #fff;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+#testimonial-section {
+  background: -webkit-gradient(linear, left top, left bottom, from(#d74680));
+  background: linear-gradient(#d74680);
+  color: #ffffff;
+}
+
+#testimonial-section h2 {
+  font-weight: bold;
+}
+
+#testimonial-section .client-photo img {
+  margin-bottom: 3rem;
+  float: left;
+}
+
+#testimonial-section .client-review {
+  padding-left: 250px;
+  padding-top: 20px;
+}
+
+#testimonial-section span {
+  color: #ffdd99;
+}
+
+.contact {
+  background: #3c5499;
+  color: #fff;
+}
+
+.contact h2 {
+  font-weight: bold;
+}
+
+.contact .btn {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #30bae7;
+}
+
+.contact input {
+  background-color: #273a71;
+}
+
+.contact textarea {
+  background-color: #273a71;
+}
+
+.contact input {
+  background-color: #273a71;
+}
+
+.contact textarea, .contact input:hover {
+  background-color: #273a71;
+}
+
+footer {
+  background: #344b8e;
+}
+
+footer span {
+  font-weight: 600;
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */
